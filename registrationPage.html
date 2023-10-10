@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+
+<body>
+    <header>
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Home</a>
+
+            </div>
+        </nav>
+
+    </header>
+    <main>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-md-6 offset-md-3">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3 class="text-center">Registration</h3>
+                        </div>
+                        <div class="card-body">
+                            <form>
+                                <div class="form-group">
+                                    <label for="username">Username</label>
+                                    <input type="text" class="form-control" id="username"
+                                        placeholder="Enter your username" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email</label>
+                                    <input type="email" class="form-control" id="email" placeholder="Enter your email"
+                                        required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="password">Password</label>
+                                    <input type="password" class="form-control" id="password"
+                                        placeholder="Enter your password" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="confirmPassword">Confirm Password</label>
+                                    <input type="password" class="form-control" id="confirmPassword" placeholder="Confirm your password" required>
+                                </div>
+                                <div class="mb-3 text-center">
+                                    <label class="" >How did you hear about us?</label>
+                                    <div class="d-flex justify-content-center">
+                                        
+                                        <select class="form-select mx-3 rounded shadow custom-width" >
+                                            <option value="LinkedIn">LinkedIn</option>
+                                            <option value="youtube">YouTube</option>
+                                            <option value="Instagram">Instagram</option>
+                                            <option value="TIKTOK">TIKTOK</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                
+
+                                <button type="submit" class="btn btn-primary btn-block">Register</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+</body>
+
+</html>
