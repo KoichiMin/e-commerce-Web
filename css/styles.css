@@ -1,0 +1,12 @@
+.hiker-image{
+    width: 100%;
+    opacity: 0.9;
+    object-fit: cover;
+}
+
+@media (max-width: 767px) {
+    .hiker-image {
+        height: 400px; 
+        opacity: 0.9;
+    }
+}
