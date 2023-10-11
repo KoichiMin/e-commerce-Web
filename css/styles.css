@@ -10,3 +10,28 @@
         opacity: 0.9;
     }
 }
+
+
+@media (min-width: 1150px) {
+    .hiker-image {
+        height: 620px;
+        opacity: 0.9;
+    }
+}
+
+
+main{
+    /* margin-top: 10%; */
+}
+
+.container-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-link{
+    text-decoration: none;
+    
+}
