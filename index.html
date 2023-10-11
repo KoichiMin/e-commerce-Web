@@ -56,9 +56,7 @@
                 <h1 class=" text-center p-5">Welcome to Expedition Essentials</h1>
                 <div class="container">
                     <div class="position-relative p-3 d-flex justify-content-center align-items-center">
-                        <a href="productPage.html"
-                            class="btn btn-primary "
-                            style="z-index: 1;">
+                        <a href="productPage.html" class="btn btn-primary " style="z-index: 1;">
                             Shop Now
                         </a>
                     </div>
@@ -121,15 +119,15 @@
 
 
         <!-- Button trigger modal -->
-        <div class="text-center p-5 m-5">
+        <!-- <div class="text-center p-5 m-5">
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
                 Play Game
             </button>
 
-        </div>
+        </div> -->
 
         <!-- Modal -->
-        <div class="modal fade text-center " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <!-- <div class="modal fade text-center " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog ">
                 <div class="modal-content ">
                     <div class="game">
@@ -139,6 +137,43 @@
                     <p>Score: <span id="scoreSpan"></span></p>
                 </div>
             </div>
+        </div> -->
+
+        <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+            tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Easiest Game Ever</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        This game was created by a Youtuber called Knife Circus. Github link: https://github.com/Beat0154/easiest-game-ever/blob/master/index.html
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-primary" data-bs-target="#exampleModalToggle2"
+                            data-bs-toggle="modal">Start Game</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
+            tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-dialog ">
+                    <div class="modal-content ">
+                        <div class="game">
+                            <div id="character"></div>
+                            <div id="block"></div>
+                        </div>
+                        <p>Score: <span id="scoreSpan"></span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center p-5 m-5">
+
+            <button class="btn btn-primary" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Play Game</button>
         </div>
         <!--Youtuber Knife Circus https://github.com/Beat0154/easiest-game-ever/blob/master/index.html  -->
 
@@ -169,4 +204,5 @@
 
 </body>
 <script src="JS/script.js"></script>
+
 </html>
