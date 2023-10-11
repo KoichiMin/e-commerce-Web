@@ -35,3 +35,55 @@ main{
     text-decoration: none;
     
 }
+
+
+
+/* Video Game */
+
+*{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+.game{
+    width: 500px;
+    height: 200px;
+    border: 1px solid black;
+    margin: auto;
+}
+#character{
+    width: 20px;
+    height: 50px;
+    background-color: red;
+    position:relative;
+    top: 150px;
+}
+.animate{
+    animation: jump 0.4s linear;
+}
+@keyframes jump{
+    0%{top: 150px;}
+    15%{top: 70px;}
+    30%{top: 20px;}
+    70%{top: 20px;}
+    85%{top: 70px;}
+    95%{top: 120px;}
+    100%{top: 150px;}
+}
+
+#block{
+    background-color: blue;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 130px;
+    left: 500px;
+    animation: block 0.5s infinite linear;
+}
+@keyframes block{
+    0%{left: 500px}
+    100%{left: -20px}
+}
+p{
+    text-align: center;
+}
