@@ -18,32 +18,48 @@ Expedition Essentials is a e-commerce platform with a primary focus on utilizing
 ***
 # Interesting Piece of Code
 
-This code is interesting because it showcases the use of Bootstrap and modal components to create an interactive game interface. The modals are effectively employed to present different game-related content in a user-friendly and visually appealing manner. The code includes two modals: one for game instructions and the other for the actual game interface. This approach allows for a seamless transition between informational content and the interactive game itself. The utilization of Bootstrap classes for styling, centering, and responsiveness enhances the overall user experience. 
+This code is interesting because it showcases the use of Bootstrap and modal components to create an interactive game interface. The modals are effectively employed to present different game-related content in a user-friendly and visually appealing manner. The code includes two modals: Game information and start button, and the other for the actual game interface. This approach allows for a seamless transition between informational content and the interactive game itself. The utilization of Bootstrap classes for styling, centering, and responsiveness enhances the overall user experience. 
 
-        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Expedition Essentials</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="productPage.html">Shop</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="checkout.html">Checkout</a>
-                        </li>
-                        <li class="nav-item d-md-none d-sm-inline">
-                            <a class="nav-link " href="loginPage.html">Login</a>
-                        </li>
-                    </ul>
+        <h1 class="text-center mt-5">Game</h1>
+        <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+            tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Easiest Game Ever</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        This game was created by a Youtuber called Knife Circus. Github link:
+                        https://github.com/Beat0154/easiest-game-ever/blob/master/index.html
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-primary" data-bs-target="#exampleModalToggle2"
+                            data-bs-toggle="modal">Start Game</button>
+                    </div>
                 </div>
-
-                <a class="nav-link  d-lg-inline d-none" href="loginPage.html">Login</a>
-
             </div>
-        </nav>
+        </div>
+
+        <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
+            tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-dialog ">
+                    <div class="modal-content ">
+                        <div class="game">
+                            <div id="character"></div>
+                            <div id="block"></div>
+                        </div>
+                        <p>Score: <span id="scoreSpan"></span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Button trigger modal -->
+        <div class="text-center p-5 m-5">
+            <button class="btn btn-primary p-5" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Play
+                Now!</button>
+        </div>
+
