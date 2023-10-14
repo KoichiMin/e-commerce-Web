@@ -24,7 +24,7 @@ main{
     /* margin-top: 10%; */
 }
 
-.container-wrapper{
+.resource-image{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,10 +39,10 @@ main{
 
 
 /* carousel #2 */
-
+/* 
 .carousel-images{
-    height: 700px;
-}
+    
+} */
 
 @media (max-width: 1000px) {
     .carousel-images {
@@ -62,10 +62,9 @@ main{
 @media (max-width: 500px) {
     .carousel-images {
         height: 150px; 
-        width: 300px;
+        
     }
 }
-
 
 
 
