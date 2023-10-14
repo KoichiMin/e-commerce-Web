@@ -38,6 +38,39 @@ main{
 
 
 
+/* carousel #2 */
+
+.carousel-images{
+    height: 700px;
+}
+
+@media (max-width: 1000px) {
+    .carousel-images {
+        height: 400px; 
+        
+    }
+}
+
+@media (max-width: 700px) {
+    .carousel-images {
+        height: 300px; 
+        
+    }
+}
+
+
+@media (max-width: 500px) {
+    .carousel-images {
+        height: 150px; 
+        width: 300px;
+    }
+}
+
+
+
+
+
+
 /* Video Game */
 
 *{
