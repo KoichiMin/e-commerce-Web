@@ -6,7 +6,7 @@ Expedition Essentials is a e-commerce platform with a primary focus on utilizing
 # Website Images
 
 ### Home Page
-![Home Page](/images/Screenshot%202023-10-14%20at%2015.22.00.png)
+![Home Page](/images/Screenshot%202023-10-16%20at%2015.52.06.png)
 ***
 ### Checkout Page
 ![Checkout Page](/images/Screenshot%202023-10-14%20at%2015.40.36.png)
